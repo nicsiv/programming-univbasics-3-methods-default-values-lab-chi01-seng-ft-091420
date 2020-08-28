@@ -4,11 +4,3 @@ def meal_choice(veg1, veg2, protein = 'tofu')
 end
 meal_choice('carrots', 'string beans')
 
-end
-
-def meal_choice(veg1, veg2, protein = 'chicken')
-  puts "What a nutritious meal!"
-  puts "A plate of #{veg1} with #{veg2} and #{protein}"
-end
-
-meal_choice('tofu', 'broccoli', 'macaroni') 
